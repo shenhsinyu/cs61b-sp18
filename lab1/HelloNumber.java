@@ -1,9 +1,12 @@
 public class HelloNumber {
     public static void main(String[] args) {
+        int i = 0;
         int x = 0;
-        while (x < 10) {
+        while (x < 45) {
+            x = x + i;
             System.out.print(x + " ");
-            x = x + 1;
+            i++;
         }
     }
 }
+// 0 1 3 6 10... and should end with 45.
